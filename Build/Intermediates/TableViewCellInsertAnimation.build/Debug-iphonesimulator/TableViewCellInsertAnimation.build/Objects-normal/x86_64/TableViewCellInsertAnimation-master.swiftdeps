@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "b65e607d8891b3b3babddf3373a1b05a"
+build_time: [497506741, 87165000]
+inputs: 
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/AppDelegate.swift": [497506738, 0]
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/ViewController.swift": [497506738, 0]
