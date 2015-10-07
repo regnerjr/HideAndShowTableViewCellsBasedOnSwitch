@@ -1,6 +1,8 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
 options: "b65e607d8891b3b3babddf3373a1b05a"
-build_time: [497506741, 87165000]
+build_time: [497510643, 382557000]
 inputs: 
-	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/AppDelegate.swift": [497506738, 0]
-	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/ViewController.swift": [497506738, 0]
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/AppDelegate.swift": [497509754, 0]
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/ViewController.swift": [497510642, 0]
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/SwitchedTableViewCell.swift": [497509829, 0]
+	"/Users/john/dev/temp/TableViewCellInsertAnimation/TableViewCellInsertAnimation/LabelsTableViewCell.swift": [497509864, 0]

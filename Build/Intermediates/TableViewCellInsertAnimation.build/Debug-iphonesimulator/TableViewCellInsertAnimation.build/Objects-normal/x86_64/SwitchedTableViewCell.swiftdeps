@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwitchedTableViewCell"
+provides-nominal:
+- "C28TableViewCellInsertAnimation21SwitchedTableViewCell"
+provides-member:
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", ""]
+provides-dynamic-lookup:
+- "theSwitch"
+- "action"
+- "switchChanged"
+- "label"
+depends-top-level:
+- "UITableViewCell"
+- "UILabel"
+- "Void"
+- "UISwitch"
+- "SwitchedTableViewCell"
+depends-member:
+- ["PSs9AnyObject", "action"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "label"]
+- ["PSs9AnyObject", "switchChanged"]
+- ["PSs9AnyObject", "theSwitch"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "action"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "label"]
+- ["PSs11CVarArgType", "switchChanged"]
+- ["PSs11CVarArgType", "theSwitch"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "action"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "label"]
+- ["PSs23CustomStringConvertible", "switchChanged"]
+- ["PSs23CustomStringConvertible", "theSwitch"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "action"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "label"]
+- ["PSs9Equatable", "switchChanged"]
+- ["PSs9Equatable", "theSwitch"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "action"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "label"]
+- ["PSs8Hashable", "switchChanged"]
+- ["PSs8Hashable", "theSwitch"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "action"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "label"]
+- ["PSo8NSCoding", "switchChanged"]
+- ["PSo8NSCoding", "theSwitch"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UISwitch"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "action"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- ["CSo8NSObject", "switchChanged"]
+- ["CSo8NSObject", "theSwitch"]
+- ["PSo16NSObjectProtocol", "action"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "label"]
+- ["PSo16NSObjectProtocol", "switchChanged"]
+- ["PSo16NSObjectProtocol", "theSwitch"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "UILabel"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "UISwitch"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "Void"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "action"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "deinit"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "init"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "label"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "switchChanged"]
+- ["C28TableViewCellInsertAnimation21SwitchedTableViewCell", "theSwitch"]
+- ["PSo29UIAccessibilityIdentification", "action"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "label"]
+- ["PSo29UIAccessibilityIdentification", "switchChanged"]
+- ["PSo29UIAccessibilityIdentification", "theSwitch"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "action"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "label"]
+- ["PSo12UIAppearance", "switchChanged"]
+- ["PSo12UIAppearance", "theSwitch"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "action"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "label"]
+- ["PSo21UIAppearanceContainer", "switchChanged"]
+- ["PSo21UIAppearanceContainer", "theSwitch"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "action"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "label"]
+- ["PSo17UICoordinateSpace", "switchChanged"]
+- ["PSo17UICoordinateSpace", "theSwitch"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "action"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "label"]
+- ["PSo13UIDynamicItem", "switchChanged"]
+- ["PSo13UIDynamicItem", "theSwitch"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "action"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "label"]
+- ["PSo27UIGestureRecognizerDelegate", "switchChanged"]
+- ["PSo27UIGestureRecognizerDelegate", "theSwitch"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UISwitch"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "action"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "label"]
+- ["CSo11UIResponder", "switchChanged"]
+- ["CSo11UIResponder", "theSwitch"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UISwitch"]
+- ["CSo15UITableViewCell", "Void"]
+- ["CSo15UITableViewCell", "action"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "label"]
+- ["CSo15UITableViewCell", "switchChanged"]
+- ["CSo15UITableViewCell", "theSwitch"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "action"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "label"]
+- ["PSo18UITraitEnvironment", "switchChanged"]
+- ["PSo18UITraitEnvironment", "theSwitch"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UISwitch"]
+- ["CSo6UIView", "Void"]
+- ["CSo6UIView", "action"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "label"]
+- ["CSo6UIView", "switchChanged"]
+- ["CSo6UIView", "theSwitch"]
+- ["PSs12_Reflectable", "action"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "label"]
+- ["PSs12_Reflectable", "switchChanged"]
+- ["PSs12_Reflectable", "theSwitch"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C28TableViewCellInsertAnimation21SwitchedTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "c8ddd86c0dc0e91d3524100d48f79394"

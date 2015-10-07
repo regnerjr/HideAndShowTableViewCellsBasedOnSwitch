@@ -6,23 +6,12 @@ provides-nominal:
 provides-member:
 - ["C28TableViewCellInsertAnimation11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
 - "window"
-- "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
-- "application"
-- "applicationWillResignActive"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "UIApplicationDelegate"
-- "UIResponder"
-- "UIApplication"
-- "NSObject"
-- "Bool"
-- "UIWindow"
-- "AnyObject"
 - "AppDelegate"
+- "UIResponder"
+- "UIWindow"
+- "UIApplicationDelegate"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -39,10 +28,6 @@ depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
-- ["C28TableViewCellInsertAnimation11AppDelegate", "AnyObject"]
-- ["C28TableViewCellInsertAnimation11AppDelegate", "Bool"]
-- ["C28TableViewCellInsertAnimation11AppDelegate", "NSObject"]
-- ["C28TableViewCellInsertAnimation11AppDelegate", "UIApplication"]
 - ["C28TableViewCellInsertAnimation11AppDelegate", "UIWindow"]
 - ["C28TableViewCellInsertAnimation11AppDelegate", "application"]
 - ["C28TableViewCellInsertAnimation11AppDelegate", "applicationDidBecomeActive"]
@@ -119,10 +104,6 @@ depends-member:
 - ["PSs8Hashable", "init"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
-- ["CSo8NSObject", "AnyObject"]
-- ["CSo8NSObject", "Bool"]
-- ["CSo8NSObject", "NSObject"]
-- ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIWindow"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
@@ -167,10 +148,6 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
-- ["CSo11UIResponder", "AnyObject"]
-- ["CSo11UIResponder", "Bool"]
-- ["CSo11UIResponder", "NSObject"]
-- ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
@@ -208,4 +185,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"
+interface-hash: "c25cf7f0601eb7e903520958f314e429"

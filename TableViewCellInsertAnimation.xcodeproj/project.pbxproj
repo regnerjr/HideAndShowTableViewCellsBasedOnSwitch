@@ -12,6 +12,8 @@
 		525FD1D91BC4D4B2006A2060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FD1D71BC4D4B2006A2060 /* Main.storyboard */; };
 		525FD1DB1BC4D4B2006A2060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525FD1DA1BC4D4B2006A2060 /* Assets.xcassets */; };
 		525FD1DE1BC4D4B2006A2060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525FD1DC1BC4D4B2006A2060 /* LaunchScreen.storyboard */; };
+		525FD1E61BC4D577006A2060 /* SwitchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD1E51BC4D577006A2060 /* SwitchedTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		525FD1E81BC4D6AB006A2060 /* LabelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FD1E71BC4D6AB006A2060 /* LabelsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		525FD1DA1BC4D4B2006A2060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525FD1DD1BC4D4B2006A2060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525FD1DF1BC4D4B2006A2060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525FD1E51BC4D577006A2060 /* SwitchedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchedTableViewCell.swift; sourceTree = "<group>"; };
+		525FD1E71BC4D6AB006A2060 /* LabelsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				525FD1D31BC4D4B2006A2060 /* AppDelegate.swift */,
 				525FD1D51BC4D4B2006A2060 /* ViewController.swift */,
+				525FD1E51BC4D577006A2060 /* SwitchedTableViewCell.swift */,
+				525FD1E71BC4D6AB006A2060 /* LabelsTableViewCell.swift */,
 				525FD1D71BC4D4B2006A2060 /* Main.storyboard */,
 				525FD1DA1BC4D4B2006A2060 /* Assets.xcassets */,
 				525FD1DC1BC4D4B2006A2060 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			files = (
 				525FD1D61BC4D4B2006A2060 /* ViewController.swift in Sources */,
 				525FD1D41BC4D4B2006A2060 /* AppDelegate.swift in Sources */,
+				525FD1E81BC4D6AB006A2060 /* LabelsTableViewCell.swift in Sources */,
+				525FD1E61BC4D577006A2060 /* SwitchedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

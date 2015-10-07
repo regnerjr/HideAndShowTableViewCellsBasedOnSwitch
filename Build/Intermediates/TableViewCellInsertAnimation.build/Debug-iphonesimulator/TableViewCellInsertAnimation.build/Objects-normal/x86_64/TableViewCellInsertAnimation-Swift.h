@@ -87,33 +87,55 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIWindow;
-@class UIApplication;
-@class NSObject;
 
 SWIFT_CLASS("_TtC28TableViewCellInsertAnimation11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic) UIWindow * __nullable window;
-- (BOOL)application:(UIApplication * __nonnull)application didFinishLaunchingWithOptions:(NSDictionary * __nullable)launchOptions;
-- (void)applicationWillResignActive:(UIApplication * __nonnull)application;
-- (void)applicationDidEnterBackground:(UIApplication * __nonnull)application;
-- (void)applicationWillEnterForeground:(UIApplication * __nonnull)application;
-- (void)applicationDidBecomeActive:(UIApplication * __nonnull)application;
-- (void)applicationWillTerminate:(UIApplication * __nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
+@class UILabel;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC28TableViewCellInsertAnimation19LabelsTableViewCell")
+@interface LabelsTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified leadingLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified trailingLabel;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISwitch;
+
+SWIFT_CLASS("_TtC28TableViewCellInsertAnimation21SwitchedTableViewCell")
+@interface SwitchedTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified label;
+@property (nonatomic, weak) IBOutlet UISwitch * __null_unspecified theSwitch;
+@property (nonatomic, copy) void (^ __nullable action)(UISwitch * __nonnull);
+- (IBAction)switchChanged:(UISwitch * __nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSIndexPath;
+@class UITableView;
+@class NSBundle;
+
 SWIFT_CLASS("_TtC28TableViewCellInsertAnimation14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+@interface ViewController : UITableViewController
+@property (nonatomic) NSInteger rowsCount;
+- (LabelsTableViewCell * __nonnull)configureLabelsCell:(NSIndexPath * __nonnull)indexPath;
+- (SwitchedTableViewCell * __nonnull)configureSwitchCell:(NSIndexPath * __nonnull)indexPath;
+- (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

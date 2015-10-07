@@ -1,24 +1,12 @@
-//
-//  SwitchedTableViewCell.swift
-//  TableViewCellInsertAnimation
-//
-//  Created by John Regner on 10/6/15.
-//  Copyright © 2015 johnregner. All rights reserved.
-//
-
 import UIKit
 
 class SwitchedTableViewCell: UITableViewCell {
+	@IBOutlet weak var label: UILabel!
+	@IBOutlet weak var theSwitch: UISwitch!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+	var action: ((sender: UISwitch) -> Void)?
 
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+	@IBAction func switchChanged(sender: UISwitch){
+		action?(sender: sender)
+	}
 }

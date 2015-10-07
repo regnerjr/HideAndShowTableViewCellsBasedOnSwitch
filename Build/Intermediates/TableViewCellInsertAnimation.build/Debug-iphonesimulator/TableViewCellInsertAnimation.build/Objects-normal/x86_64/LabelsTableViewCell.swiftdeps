@@ -1,0 +1,129 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LabelsTableViewCell"
+provides-nominal:
+- "C28TableViewCellInsertAnimation19LabelsTableViewCell"
+provides-member:
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", ""]
+provides-dynamic-lookup:
+- "leadingLabel"
+- "trailingLabel"
+depends-top-level:
+- "LabelsTableViewCell"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "leadingLabel"]
+- ["PSs9AnyObject", "trailingLabel"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "leadingLabel"]
+- ["PSs11CVarArgType", "trailingLabel"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "leadingLabel"]
+- ["PSs23CustomStringConvertible", "trailingLabel"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "leadingLabel"]
+- ["PSs9Equatable", "trailingLabel"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "leadingLabel"]
+- ["PSs8Hashable", "trailingLabel"]
+- ["PSs8Hashable", ""]
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", "UILabel"]
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", "deinit"]
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", "init"]
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", "leadingLabel"]
+- ["C28TableViewCellInsertAnimation19LabelsTableViewCell", "trailingLabel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "leadingLabel"]
+- ["PSo8NSCoding", "trailingLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "leadingLabel"]
+- ["CSo8NSObject", "trailingLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "leadingLabel"]
+- ["PSo16NSObjectProtocol", "trailingLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "leadingLabel"]
+- ["PSo29UIAccessibilityIdentification", "trailingLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "leadingLabel"]
+- ["PSo12UIAppearance", "trailingLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "leadingLabel"]
+- ["PSo21UIAppearanceContainer", "trailingLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "leadingLabel"]
+- ["PSo17UICoordinateSpace", "trailingLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "leadingLabel"]
+- ["PSo13UIDynamicItem", "trailingLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "leadingLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "trailingLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "leadingLabel"]
+- ["CSo11UIResponder", "trailingLabel"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "leadingLabel"]
+- ["CSo15UITableViewCell", "trailingLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "leadingLabel"]
+- ["PSo18UITraitEnvironment", "trailingLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "leadingLabel"]
+- ["CSo6UIView", "trailingLabel"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "leadingLabel"]
+- ["PSs12_Reflectable", "trailingLabel"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C28TableViewCellInsertAnimation19LabelsTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e6a070426c23fafbc80c6c26e86a3cb8"
